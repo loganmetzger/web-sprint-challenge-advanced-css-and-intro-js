@@ -242,8 +242,8 @@ function get20s(array){
   let newArray = [];
 
   for (let i = 0; i < array.length; i++) {
-    if (parseInt(array[i].years >= 1900)) {
-      newArray.push(array[i]);
+    if (parseInt(array[i].years,10) >= 1900) {
+      newArray.push(array[i].name);
     }
   }
   console.log(newArray)
