@@ -137,6 +137,19 @@ button:hover{
 }
 
 @media(max-width: 500px) {
+
+    /* .nav span {
+        display: inline-block;
+        margin-left: 10px;
+    } */
+
+    /* .nav a.bordered {
+        margin-left: 10px;
+        margin-right: 10px;
+    } */
+
+    .title-container
+
     .artists-container {
         display: flex;
         flex-direction: column;
@@ -158,6 +171,11 @@ button:hover{
 
     .artist .bio {
         font-size: 1.3rem;
-        width: 400px;
+        width: 300px;
+        margin-left: 0;
+        line-height: 1.2;
+        /* display: flex; */
+        /* align-items: center; */
+        /* justify-content: center; */
     }
 }
