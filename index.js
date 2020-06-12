@@ -293,11 +293,15 @@ bio: Add 1-2 sentences (or use lorem ipsum)
 
 At the end, this function should console.log() the new array with information added"*/
 
-function addArtist(/* Code here */){
+function addArtist(array, id, name, years, genre, nationality, bio, ){
 
-    /* Code here */
+  array.push({id, name, years, genre, nationality, bio})
+  console.log(array);
 
-  }
+}
+
+addArtist(artists, 21, 'Logan Metzger', '1993-Present', 'Straight Up Baller', 'American', 'Traveled the world and dunked on the haters, making his name by forcing people to reevaluate every life decision they ever made');
+
 
 /* Task 7: Create a function called lotsOfArt() that takes one argument: 
 
