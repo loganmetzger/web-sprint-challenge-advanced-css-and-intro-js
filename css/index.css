@@ -144,6 +144,12 @@ button:hover{
 
     .title-container div{
         width: 100%;
+        background-size: 1600px;
+    }
+
+    button {
+        padding: 3% 5%;
+        font-size: 2rem;
     }
 
     .title-container hr {
@@ -159,12 +165,23 @@ button:hover{
     }
 
     .artist {
-        width: 300px;
+        width: 400px;
         margin-bottom: 30px;
     }
 
     .artist img {
         height: 250px;
+        width: 300px;
+    }
+
+    .artist a {
+        font-size: 1.5rem;
+    }
+
+    .artist .bio {
+        font-size: 1rem;
+        width: 350px;
+        margin: 0 auto;
     }
 
 }
