@@ -22,11 +22,23 @@ Commit your code regularly and meaningfully. This helps both you (in case you ev
 
 Be prepared to demonstrate your understanding of this week's concepts by answering questions on the following topics. You might prepare by writing down your own answers before hand.
 
-1. How would you describe preprocessing to someone new to CSS?
-2. What is your favorite concept in preprocessing? What is the concept that gives you the most trouble?
+1. How would you describe acessibility on the web to someone new to programming?
+
+Accessibility is making sure that the web page you create can be enjoyed by anyone. This is particularly important for those with visual impairments or who use alternative input devices, since these people often use programs to intepret web pages in a way that makes them look differently than you might have designed it. Using semantic tags in your HTML is one of the best ways to go about this, since semantic tags have inherent meaning, and the screen reading programs people use often take meaning from these semantic tags to markup the content for their users
+
+2. Talk about 3 different things you can do to ensure your website is accessible. 
+
+Use semantic tags
+Alt text your images
+Give your elements unique and descriptive names so there doesn't have to be a lot of interpretation what they are for
+
 3. How would you explain the concept of a variable to someone new to programming?
+
+A variable is a container for data that you can give any name you want. You can make this data numbers, words, or even tables of numbers and words. You can access this data simpy by typing in the name of the variable you have created.
+
 4. What is the purpose of using functions in code?
-5. What is JSON data?
+
+Functions are essentially tiny programs that perform specific tasks. We create functions and make them general use so that we can call them to use them any time we need them. For instance, we could make a function to add information to an array of objects about our TL group. You would be able to call the function as many times as you like to continue adding new people into the group.
 
 You are expected to be able to answer questions in these areas. Your responses contribute to your Sprint Challenge grade. 
 
